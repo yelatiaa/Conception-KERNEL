@@ -25,12 +25,10 @@ Ce projet consiste à concevoir un kernel simplifié avec gestion de l'ordonnanc
 ## **Structure du Projet**
 
 ### **Dossiers et Fichiers Principaux :**
-- `src/` : Contient le code source du kernel.
   - `kernel.c` : Point d'entrée du kernel.
   - `scheduler.c` : Implémentation de l'ordonnancement.
   - `screen.c` : Gestion de l'écran.
   - `timer.c` : Gestion des interruptions du timer.
-- `include/` : Contient les fichiers d'en-tête.
   - `kernel.h` : Définitions globales pour le kernel.
   - `scheduler.h` : Prototypes et structures liés à l'ordonnancement.
   - `screen.h` : Prototypes pour la gestion de l'écran.
